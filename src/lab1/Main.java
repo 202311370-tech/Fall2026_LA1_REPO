@@ -9,8 +9,11 @@ package lab1;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Software Evolution and Maintenance - Lab 1");
-		System.out.println("Temperature of 25 C in Fahrenheit: " + celsiusToFahrenheit(25));
+		double celsius=25.0;
+		double Fahrenheit= celsiusToFahrenheit(celsius);
+		
+		System.out.println("celsius: "+ celsius);
+		System.out.println("Fahrenheit: " + Fahrenheit(25));
 	}
 
 	/** Converts degrees Celsius to degrees Fahrenheit. */
