@@ -15,6 +15,7 @@ public class Main {
 
 	/** Converts degrees Celsius to degrees Fahrenheit. */
 	public static double celsiusToFahrenheit(double c) {
-		return c * 5.0 / 9.0 + 32.0;
+		return (celsius * 9.0 /5.0  )+ 32.0;
+		System.out.println("202311370");
 	}
 }
